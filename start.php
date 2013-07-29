@@ -51,10 +51,10 @@ function split_page_handler() {
 	echo '<div id="cursor-containment-wrapper"><div id="cursor-iframes" class="tooltip n" title="' . elgg_echo('split-your-elgg:cursor:helper') . '" style="left:' . $widthA . '%;"><div id="cursor-line" class="hidden"></div></div></div>';
 	echo '<div id="cursor-mask" class="hidden"></div>';
 
-	if (!$A || !filter_var($A, FILTER_VALIDATE_URL)) elgg_get_site_url();
+	if (!$A || !filter_var(iconv('UTF-8', 'ASCII//IGNORE',$A), FILTER_VALIDATE_URL)) elgg_get_site_url();
 	echo '<iframe id="splited-frame-a" src="' . $A . '" frameborder="0" width="' . $widthA . '%" height="100%"></iframe>';
 
-	if (!$B || !filter_var($B, FILTER_VALIDATE_URL)) {
+	if (!$B || !filter_var(iconv('UTF-8', 'ASCII//IGNORE',$B), FILTER_VALIDATE_URL)) {
 		echo elgg_view_form('split-your-elgg/split', array('id' => 'splited-frame-b'));
 	} else {
 		echo '<iframe id="splited-frame-b" src="' . $B . '" frameborder="0" width="' . $widthB . '%" height="100%"></iframe>';

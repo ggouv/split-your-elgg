@@ -4,7 +4,7 @@
 	<author>Emmanuel Salomon @ManUtopiK</author>
 	<version>0.1b</version>
 	<blurb>Split an elgg site in two iframes.</blurb>
-	<description>This plugin allow to split an elgg site in two iframes, with a second iframe of user choice. This is usefull for colaboration like split your elgg with an etherpad or a video chat tools...</description>
+	<description>This plugin allow to split an elgg site in two iframes, with a second iframe with user choice. This is usefull for colaboration like split your elgg with an etherpad or a video chat tools...</description>
 	<website>https://github.com/ManUtopiK/split-your-elgg</website>
 	<copyright></copyright>
 	<license>GNU Affero General Public License, version 3 or later</license>
