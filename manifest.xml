@@ -8,9 +8,26 @@
 	<website>https://github.com/ManUtopiK/split-your-elgg</website>
 	<copyright></copyright>
 	<license>GNU Affero General Public License, version 3 or later</license>
+
 	<requires>
 		<type>elgg_release</type>
 		<version>1.8</version>
 	</requires>
+
+	<category>tools</category>
+
+	<screenshot>
+		<path>screenshots/split_form.png</path>
+		<description>Split form</description>
+	</screenshot>
+	<screenshot>
+		<path>screenshots/elgg_with_etherpad.png</path>
+		<description>Elgg with etherpad</description>
+	</screenshot>
+	<screenshot>
+		<path>screenshots/resize_panes.png</path>
+		<description>Resize panes</description>
+	</screenshot>
+
 	<activate_on_install>true</activate_on_install>
 </plugin_manifest>
